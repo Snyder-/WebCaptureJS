@@ -62,7 +62,6 @@ if(args.length <= 1) {
     console.log('Finished Loading...\nCapturing Page!');
   }
   page.onResourceError = function(error) {
-    console.log(error.errorCode, error.errorString);
     if(error.errorCode !== 6){
       console.log('Unable to access website.  Please verify URL.');
       phantom.exit(1);
