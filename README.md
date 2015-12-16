@@ -1,4 +1,4 @@
-# Web Image Capture
+# Web Capture
 
 ## For Use With [PhantomJS](http://phantomjs.org/)
 PhantomJS script for web capture.  Command line tool with rails like argument hash.
