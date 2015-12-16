@@ -8,7 +8,7 @@ if(args.length <= 1) {
   console.log("OPTIONS:\n");
   console.log("[Choosing Image Name]");
   console.log("  phantomjs wic.js www.emberjs.com name:image-one\n");
-  console.log("[Choosing Render Format] [gif, png, jpeg, pdf");
+  console.log("[Choosing Render Format] [gif, png, jpeg, pdf]");
   console.log("  phantomjs wic.js www.emberjs.com format:gif\n");
   console.log("[Choosing Webpage Size] [width, height]");
   console.log("  phantomjs wic.js www.emberjs.com image-one.gif width:1920 height:1080\n");
